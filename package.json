@@ -1,0 +1,46 @@
+{
+  "name": "book-finder",
+  "version": "1.0.0",
+  "description": "一個精美的書籍搜索網站",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.5",
+    "@vueuse/core": "^10.4.1",
+    "axios": "^1.4.0",
+    "pinia": "^2.1.6",
+    "quasar": "^2.12.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.4.1",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.2",
+    "sass": "^1.92.1",
+    "vite": "^4.4.9"
+  },
+  "keywords": [
+    "vue",
+    "quasar",
+    "books",
+    "search",
+    "reading"
+  ],
+  "author": "Fisher",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/book-finder.git"
+  }
+}
